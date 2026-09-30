@@ -2,11 +2,9 @@
 
 A lightweight Python-based **File Integrity Monitoring (FIM)** tool that detects changes to files using **SHA-256 cryptographic hashes**.
 
-Built as a cybersecurity learning project to explore file integrity monitoring, cryptographic hashing, Python automation, command-line interfaces, and Git/GitHub.
-
 ---
 
-## ✨ Features
+## Features
 
 * 🔎 Scan files in a selected directory
 * 🔑 Calculate **SHA-256** hashes
