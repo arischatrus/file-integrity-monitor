@@ -18,7 +18,7 @@ A lightweight Python-based **File Integrity Monitoring (FIM)** tool that detects
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 The tool creates a **baseline** containing the SHA-256 hash of every file it scans.
 
