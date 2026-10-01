@@ -6,15 +6,15 @@ A lightweight Python-based **File Integrity Monitoring (FIM)** tool that detects
 
 ## Features
 
-* 🔎 Scan files in a selected directory
-* 🔑 Calculate **SHA-256** hashes
-* 💾 Create a trusted file baseline
-* 🆕 Detect new files
-* ✏️ Detect modified files
-* 🗑️ Detect deleted files
-* 📁 Monitor user-selected directories
-* 💻 Simple command-line interface
-* 📄 Store baselines as JSON
+* Scan files in a selected directory
+* Calculate **SHA-256** hashes
+* Create a trusted file baseline
+* Detect new files
+* Detect modified files
+* Detect deleted files
+* Monitor user-selected directories
+* Simple command-line interface
+* Store baselines as JSON
 
 ---
 
@@ -27,29 +27,29 @@ Later, you can scan the same directory again.
 The new hashes are compared against the baseline:
 
 ```text
-              📁 Target Directory
+               Target Directory
                       │
                       ▼
-                 🔎 Scan Files
+                  Scan Files
                       │
                       ▼
-                🔑 SHA-256 Hash
+                 SHA-256 Hash
                       │
                       ▼
-               💾 Save Baseline
+                Save Baseline
                       │
                       │
                  Later Scan
                       │
                       ▼
-                🔑 SHA-256 Hash
+                 SHA-256 Hash
                       │
                       ▼
-                ⚖️ Compare
+                 Compare
                       │
           ┌───────────┼───────────┐
           ▼           ▼           ▼
-        🆕 NEW     ✏️ MODIFIED   🗑️ DELETED
+         NEW      MODIFIED    DELETED
 ```
 
 Even a very small change to a file produces a completely different SHA-256 hash.
